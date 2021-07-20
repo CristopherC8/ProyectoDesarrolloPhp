@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Registrar un Programa de Aeropuerto</title>
+    </head>
+
+    <body>
+        <h1>Alta Programa de Aeropuerto</h1>
+        <form action="altaAeropuertoP2.php" method="POST">
+            Aterrizaje: 
+            <select name="Aterrizaje">
+                <option value="0">No</option>
+                <option value="1">Si</option>
+            </select>
+            Despegue:
+            <select name="Despegue">
+                <option value="0">No</option>
+                <option value="1">Si</option>
+            </select><br>
+            Escala:<br>
+            <textarea name="escala"></textarea>
+            <br>
+            Codigo del aeropuerto:
+            <input type="text" name="codigo"><br>
+            Numero de Programa:
+            <input type="text" name="no_programa"><br>
+            <input type="submit" value="Registrar">
+        </form>
+    </body>
+</html>

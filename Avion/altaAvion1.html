@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Registrar un Avion</title>
+    </head>
+
+    <body>
+        <h1>Alta Avion</h1>
+        <form action="altaAvion2.php" method="POST">
+            Selecciona el Modelo:
+            <select name="modelo">
+                <option value="1">Airbus 319</option>
+                <option value="2">Airbus 320</option>
+                <option value="3">Airbus 330</option>
+                <option value="1">Boeing 737</option>
+                <option value="2">Boeing 747</option>
+                <option value="3">Boeing 747 F Freigther</option>
+            </select>
+            Capacidad del Avion:
+            <input type="text" name="capacidad"><br>
+            Codigo del Aeropuerto:
+            <input type="text" name="codigo"><br>
+            <input type="submit" value="Registrar">
+        </form>
+    </body>
+</html>
